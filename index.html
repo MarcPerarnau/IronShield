@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="claro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronShield</title>
+    <!--! Paleta de Colores -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <!--! Estilos CSS del Index -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!--! Logo -->
+    <link rel="shortcut icon" href="assets/logo/logo.png" type="image/x-icon" />
+    <!--! AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">IronShield</div>
+        <ul class="menu">
+          <li><a href="#inicio" data-i18n="n1"></a></li>
+          <li><a href="#sobre" data-i18n="n2"></a></li>
+          <li><a href="#caracteristicas" data-i18n="n3"></a></li>
+          <li><a href="#compatibilidad" data-i18n="n4"></a></li>
+          <li><a href="#precios" data-i18n="n5"></a></li>
+          <li><a href="#resenas" data-i18n="n6"></a></li>
+          <li><a href="#premios" data-i18n="n7"></a></li>
+          <li><a href="#faqs" data-i18n="n8"></a></li>
+          <li><a href="#partners" data-i18n="n9"></a></li>
+          <li><a href="#contacto" data-i18n="n10"></a></li>
+        </ul>
+        <div class="acciones">
+          <select id="selectorIdioma">
+            <option value="es">🇪🇸</option>
+            <option value="en">🇬🇧</option>
+            <option value="it">🇮🇹</option>
+            <option value="fr">🇫🇷</option>
+            <option value="de">🇩🇪</option>
+            <option value="pl">🇵🇱</option>
+            <option value="ru">🇷🇺</option>
+            <option value="uk">🇺🇦</option>
+            <option value="pt">🇵🇹</option>
+            <option value="zh">🇨🇳</option>
+            <option value="ja">🇯🇵</option>
+            <option value="mi">🇳🇿</option>
+          </select>
+          <button id="btnLogin" class="btn" data-i18n="nlogin"></button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero-dos-columnas">
+        <div class="contenido-izquierda" data-aos="fade-right">
+          <h1>
+            <span data-i18n="i1"></span>
+            <span class="acento">IronShield</span>
+          </h1>
+          <p class="subtitulo" data-i18n="i2"></p>
+
+          <ul class="puntos-clave" data-aos="fade-up" data-aos-delay="200">
+            <li>
+              <span class="icono">✅</span>
+              <span data-i18n="i3"></span>
+            </li>
+            <li>
+              <span class="icono">🔐</span>
+              <span data-i18n="i4"></span>
+            </li>
+            <li>
+              <span class="icono">⚙️</span>
+              <span data-i18n="i5"></span>
+            </li>
+          </ul>
+
+          <div class="botones-hero" data-aos="zoom-in" data-aos-delay="400">
+            <a href="#sobre" class="btn-hero" data-i18n="i6"></a>
+            <button
+              class="btn-hero-secundario abrir-registro"
+              data-i18n="i7"
+            ></button>
+          </div>
+        </div>
+
+        <div class="hero-right" data-aos="fade-left">
+          <img src="assets/inicio/inicio.jpg" alt="Hero Image" />
+        </div>
+      </section>
+
+      <section id="sobre" class="seccion sobre-nosotros" data-aos="fade-up">
+        <div class="contenido-sobre">
+          <div class="imagen-sobre" data-aos="fade-right">
+            <img src="assets/sobre/team.jpg" alt="Nuestro equipo" />
+          </div>
+          <div class="texto-sobre" data-aos="fade-left">
+            <h2 class="titulo-seccion">
+              <span class="icono-titulo">👥</span>
+              <span data-i18n="s1"></span>
+            </h2>
+
+            <p data-i18n="s2"></p>
+            <ul class="valores-sobre">
+              <li data-i18n="s3"></li>
+              <li data-i18n="s4"></li>
+              <li data-i18n="s5"></li>
+              <li data-i18n="s6"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="caracteristicas" class="seccion" data-aos="fade-up">
+        <h2 class="titulo-seccion">
+          🛡️
+          <span data-i18n="c1"></span>
+        </h2>
+
+        <div class="grid-caracteristicas">
+          <div class="card" data-aos="zoom-in" data-aos-delay="100">
+            <span class="icono">🔍</span>
+            <h3 data-i18n="c2"></h3>
+            <p data-i18n="c3"></p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="200">
+            <span class="icono">🧠</span>
+            <h3 data-i18n="c4"></h3>
+            <p data-i18n="c5"></p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="300">
+            <span class="icono">📊</span>
+            <h3 data-i18n="c6"></h3>
+            <p data-i18n="c7"></p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="400">
+            <span class="icono">🔐</span>
+            <h3 data-i18n="c8"></h3>
+            <p data-i18n="c9"></p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="500">
+            <span class="icono">🌐</span>
+            <h3 data-i18n="c10"></h3>
+            <p data-i18n="c11"></p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="600">
+            <span class="icono">♻️</span>
+            <h3 data-i18n="c12"></h3>
+            <p data-i18n="c13"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="compatibilidad" class="seccion" data-aos="fade-up">
+        <h2 class="titulo-seccion" data-i18n="co1"></h2>
+        <p class="subtitulo-seccion" data-i18n="co2"></p>
+
+        <div class="compatibilidad-grid">
+          <div class="sistema" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/os/windows.webp" alt="Windows" />
+            <span data-i18n="co3"></span>
+          </div>
+          <div class="sistema" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/os/linux.webp" alt="Linux" />
+            <span data-i18n="co4"></span>
+          </div>
+          <div class="sistema" data-aos="fade-up" data-aos-delay="300">
+            <img src="assets/os/macos.webp" alt="macOS" />
+            <span data-i18n="co5"></span>
+          </div>
+          <div class="sistema" data-aos="fade-up" data-aos-delay="400">
+            <img src="assets/os/ubuntu.png" alt="Ubuntu" />
+            <span data-i18n="co6"></span>
+          </div>
+          <div class="sistema" data-aos="fade-up" data-aos-delay="500">
+            <img src="assets/os/redhat.webp" alt="Fedora" />
+            <span data-i18n="co7"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="precios" class="seccion precios" data-aos="fade-up">
+        <h2
+          class="titulo-seccion"
+          data-i18n="p1"
+          data-aos="fade-up"
+          data-aos-delay="50"
+        ></h2>
+
+        <div class="toggle-precio" data-aos="fade-up" data-aos-delay="100">
+          <label>
+            <input type="radio" name="frecuencia" value="mensual" checked />
+            <span data-i18n="p2"></span>
+          </label>
+          <label>
+            <input type="radio" name="frecuencia" value="anual" />
+            <span data-i18n="p3"></span>
+            <span class="ahorro" data-i18n="p4"></span>
+          </label>
+        </div>
+
+        <div class="grid-precios">
+          <div class="plan basico" data-aos="fade-up" data-aos-delay="150">
+            <h3 data-i18n="p5"></h3>
+            <p class="precio" data-mensual="5" data-anual="51">5€/mes</p>
+            <ul>
+              <li data-i18n="p6"></li>
+              <li data-i18n="p7"></li>
+              <li data-i18n="p8"></li>
+            </ul>
+            <button
+              type="button"
+              class="btn elegir-plan"
+              data-plan="basico"
+              data-i18n="p9"
+            ></button>
+          </div>
+
+          <div
+            class="plan pro destacado"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="badge" data-i18n="p10"></div>
+            <h3 data-i18n="p11"></h3>
+            <p class="precio" data-mensual="15" data-anual="153">15€/mes</p>
+            <ul>
+              <li data-i18n="p12"></li>
+              <li data-i18n="p13"></li>
+              <li data-i18n="p14"></li>
+            </ul>
+            <button
+              type="button"
+              class="btn elegir-plan"
+              data-plan="pro"
+              data-i18n="p9"
+            ></button>
+          </div>
+
+          <div class="plan empresarial" data-aos="fade-up" data-aos-delay="200">
+            <h3 data-i18n="p15"></h3>
+            <p class="precio" data-mensual="30" data-anual="306">30€/mes</p>
+            <ul>
+              <li data-i18n="p16"></li>
+              <li data-i18n="p17"></li>
+              <li data-i18n="p18"></li>
+            </ul>
+            <button
+              type="button"
+              class="btn elegir-plan"
+              data-plan="empresarial"
+              data-i18n="p9"
+            ></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonios" class="seccion testimonios" data-aos="fade-up">
+        <h2 class="titulo-seccion" data-i18n="t1"></h2>
+        <p class="subtitulo" data-i18n="t2"></p>
+
+        <div class="carrusel-testimonios">
+          <div class="slide activo">
+            <p class="mensaje" data-i18n="t3"></p>
+            <div class="autor">
+              <img src="assets/users/carlos.jpg" alt="Carlos" />
+              <div>
+                <strong data-i18n="t4"></strong>
+                <span data-i18n="t5"></span>
+                <div class="estrellas">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="mensaje" data-i18n="t6"></p>
+            <div class="autor">
+              <img src="assets/users/laura.jpg" alt="Laura" />
+              <div>
+                <strong data-i18n="t7"></strong>
+                <span data-i18n="t8"></span>
+                <div class="estrellas">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="mensaje" data-i18n="t9"></p>
+            <div class="autor">
+              <img src="assets/users/ivan.jpg" alt="Iván" />
+              <div>
+                <strong data-i18n="t10"></strong>
+                <span data-i18n="t11"></span>
+                <div class="estrellas">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="mensaje" data-i18n="t12"></p>
+            <div class="autor">
+              <img src="assets/users/sofia.jpg" alt="Sofía" />
+              <div>
+                <strong data-i18n="t13"></strong>
+                <span data-i18n="t14"></span>
+                <div class="estrellas">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="mensaje" data-i18n="t15"></p>
+            <div class="autor">
+              <img src="assets/users/david.jpg" alt="David" />
+              <div>
+                <strong data-i18n="t16"></strong>
+                <span data-i18n="t17"></span>
+                <div class="estrellas">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="mensaje" data-i18n="t18"></p>
+            <div class="autor">
+              <img src="assets/users/natilla.jpg" alt="Natalia" />
+              <div>
+                <strong data-i18n="t19"></strong>
+                <span data-i18n="t20"></span>
+                <div class="estrellas">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="premios" class="seccion" data-aos="fade-up">
+        <h2 class="titulo-seccion" data-i18n="pr1"></h2>
+        <div class="grid-premios">
+          <div class="premio">
+            <img src="assets/premios/av-test.png" alt="AV-Test Certified" />
+            <h3 data-i18n="pr2"></h3>
+            <p data-i18n="pr3"></p>
+          </div>
+
+          <div class="premio">
+            <img src="assets/premios/VB100.png" alt="VB100 Award" />
+            <h3 data-i18n="pr4"></h3>
+            <p data-i18n="pr5"></p>
+          </div>
+
+          <div class="premio">
+            <img src="assets/premios/iso.png" alt="ISO 27001" />
+            <h3 data-i18n="pr6"></h3>
+            <p data-i18n="pr7"></p>
+          </div>
+
+          <div class="premio">
+            <img
+              src="assets/premios/cybersecurity_awards.png"
+              alt="ICSA Labs Certified"
+            />
+            <h3 data-i18n="pr8"></h3>
+            <p data-i18n="pr9"></p>
+          </div>
+
+          <div class="premio">
+            <img src="assets/premios/oscp.png" alt="OPSWAT Gold Certified" />
+            <h3 data-i18n="p10"></h3>
+            <p data-i18n="pr11"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faqs" class="seccion" data-aos="fade-up">
+        <h2 class="titulo-seccion" data-i18n="f1"></h2>
+        <p class="subtitulo-seccion" data-i18n="f2"></p>
+
+        <div class="acordeon-faqs">
+          <div class="faq">
+            <button class="faq-titulo" data-i18n="f3"></button>
+            <div class="faq-contenido">
+              <p data-i18n="f4"></p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <button class="faq-titulo" data-i18n="f5"></button>
+            <div class="faq-contenido">
+              <p data-i18n="f6"></p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <button class="faq-titulo" data-i18n="f7"></button>
+            <div class="faq-contenido">
+              <p data-i18n="f8"></p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <button class="faq-titulo" data-i18n="f9"></button>
+            <div class="faq-contenido">
+              <p data-i18n="f10"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="partners" class="seccion">
+        <h2 class="titulo-seccion" data-i18n="pa1" data-aos="fade-up"></h2>
+        <p data-i18n="pa2" data-aos="fade-up" data-aos-delay="100"></p>
+
+        <div
+          class="scroll-patrocinadores"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="logo-partner" title="FontVella">
+            <img src="assets/partners/fontvella.webp" alt="FontVella" />
+          </div>
+          <div class="logo-partner" title="Cybex">
+            <img src="assets/partners/cybex.webp" alt="Cybex" />
+          </div>
+          <div class="logo-partner" title="IGT">
+            <img src="assets/partners/igt.webp" alt="IGT" />
+          </div>
+          <div class="logo-partner" title="4YFN">
+            <img src="assets/partners/4yfn.webp" alt="4YFN" />
+          </div>
+          <div class="logo-partner" title="Carrefour">
+            <img src="assets/partners/carrefour.webp" alt="Carrefour" />
+          </div>
+          <div class="logo-partner" title="Carrefour">
+            <img src="assets/partners/carrefour.webp" alt="Carrefour" />
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contacto"
+        class="seccion centrado-contacto"
+        data-aos="fade-up"
+      >
+        <h2 class="titulo-seccion" data-i18n="con1"></h2>
+        <p data-i18n="con2"></p>
+
+        <div class="contacto-contenedor">
+          <!-- Columna 1: Formulario -->
+          <form
+            class="form-contacto"
+            action="https://formspree.io/f/myzweygy"
+            method="POST"
+          >
+            <div class="campo">
+              <label for="nombre">
+                <i class="fas fa-user"></i>
+                <span data-i18n="con3"></span>
+              </label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Tu nombre"
+                required
+                data-i18n-placeholder="con4"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="email">
+                <i class="fas fa-envelope"></i>
+                <span data-i18n="con5"></span>
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Tu email"
+                required
+                data-i18n-placeholder="con6"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">
+                <i class="fas fa-comment-dots"></i>
+                <span data-i18n="con7"></span>
+              </label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                placeholder="Tu mensaje..."
+                rows="5"
+                required
+                data-i18n-placeholder="con8"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">
+              <i class="fas fa-paper-plane"></i>
+              <span data-i18n="con9"></span>
+            </button>
+          </form>
+
+          <!-- Columna 2: Info + Mapa -->
+          <div class="info-contacto">
+            <p>
+              <strong data-i18n="con10"></strong>
+            </p>
+            <p>
+              <a href="mailto:soporte@ironshield.com"
+                >ironshieldplus@gmail.com</a
+              >
+            </p>
+            <p><a href="tel:+34634973323">+34 634 973 323</a></p>
+
+            <div class="mapa">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d340.36815936841!2d8.481059950719034!3d46.96276522853188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478559c66cb41c8d%3A0x8bdd41891de35f32!2sVorderm%C3%BChlebach%209%2C%206375%20Beckenried%2C%20Suiza!5e0!3m2!1ses!2ses!4v1746127965598!5m2!1ses!2ses"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/tema.js"></script>
+
+    <div id="burbuja-tema" title="Cambiar tema">🌙</div>
+    <div id="modalLogin" class="modal oculto">
+      <div class="modal-contenido">
+        <span class="cerrar">&times;</span>
+        <h2>Iniciar sesión</h2>
+        <form id="loginForm" method="POST" action="php/login.php">
+          <input type="text" name="dni" placeholder="DNI" required>
+          <input type="password" name="contrasena" placeholder="Contraseña" required>
+          <button type="submit">Iniciar sesión</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="modalRegistro" class="modal oculto">
+      <div class="modal-contenido">
+        <span class="cerrar">&times;</span>
+        <h2 data-i18n="registro_titulo">Registro</h2>
+        <form id="formRegistro" method="POST" action="php/registro.php">
+          <!-- Paso 1: Datos personales -->
+          <div class="paso" data-step="1">
+            <h3 data-i18n="registro_datos">Datos personales</h3>
+            <input
+              type="text"
+              name="dni"
+              placeholder="DNI"
+              maxlength="12"
+              required
+              data-i18n-placeholder="dni"
+            />
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Nombre completo"
+              required
+              data-i18n-placeholder="fullname"
+            />
+            <input
+              type="email"
+              name="correo"
+              placeholder="Correo electrónico"
+              required
+              data-i18n-placeholder="email"
+            />
+            <input
+              type="password"
+              name="contrasena"
+              placeholder="Contraseña"
+              required
+              data-i18n-placeholder="password"
+            />
+            <button type="button" class="btn siguiente" data-i18n="next">
+              Siguiente
+            </button>
+          </div>
+
+          <!-- Paso 2: Selección del plan -->
+          <div class="paso oculto" data-step="2">
+            <h3 data-i18n="registro_plan">Selecciona un plan</h3>
+            <div class="planes">
+              <label>
+                <input type="radio" name="plan" value="basico" required />
+                <span data-i18n="p5">Básico</span>
+              </label>
+              <label>
+                <input type="radio" name="plan" value="pro" />
+                <span data-i18n="p11">Pro</span>
+              </label>
+              <label>
+                <input type="radio" name="plan" value="empresarial" />
+                <span data-i18n="p15">Empresarial</span>
+              </label>
+            </div>
+            <p id="precioPlan" class="precio-plan"></p>
+            <div id="extraCampos"></div>
+            <div class="navegacion">
+              <button type="button" class="btn anterior" data-i18n="back">
+                Anterior
+              </button>
+              <button type="button" class="btn siguiente" data-i18n="next">
+                Siguiente
+              </button>
+            </div>
+          </div>
+
+          <!-- Paso 3: Tarjeta -->
+          <div class="paso oculto" data-step="3">
+            <h3 data-i18n="registro_tarjeta">Datos de tarjeta</h3>
+
+            <div class="plan-resumen">
+              <p id="resumenPlan" data-i18n="resumen_plan">
+                Plan: No seleccionado
+              </p>
+              <p id="resumenPrecio" data-i18n="resumen_precio">
+                Precio: 0€/mes
+              </p>
+              <div class="tipo-pago">
+                <label for="mensual">
+                  <input
+                    type="radio"
+                    name="tipoPago"
+                    id="mensual"
+                    value="mensual"
+                    checked
+                  />
+                  <span data-i18n="p2">Mensual</span>
+                </label>
+                <label for="anual">
+                  <input
+                    type="radio"
+                    name="tipoPago"
+                    id="anual"
+                    value="anual"
+                  />
+                  <span data-i18n="p3">Anual (-15%)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="campo-input">
+              <label for="tarjeta"
+                >💳
+                <span data-i18n="tarjeta_numero">Número de tarjeta</span></label
+              >
+              <input
+                type="text"
+                id="tarjeta"
+                name="tarjeta"
+                placeholder="1234-5678-9012-3456"
+                maxlength="19"
+                required
+              />
+            </div>
+
+            <div class="campo-input">
+              <label for="caducidad"
+                >📅
+                <span data-i18n="tarjeta_fecha">Fecha de caducidad</span></label
+              >
+              <input type="month" id="caducidad" name="caducidad" required />
+            </div>
+
+            <div class="campo-input">
+              <label for="cvv"
+                >🔒 <span data-i18n="tarjeta_cvv">CVV</span></label
+              >
+              <input
+                type="text"
+                id="cvv"
+                name="cvv"
+                placeholder="123"
+                maxlength="4"
+                required
+              />
+            </div>
+
+            <div class="navegacion">
+              <button type="button" class="btn anterior" data-i18n="back">
+                Anterior
+              </button>
+              <button type="submit" class="btn" data-i18n="register">
+                Registrarse
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
