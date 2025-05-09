@@ -1,0 +1,26 @@
+:root {
+    --fondo: #F5F3FF;
+    --seccion: #E0E7FF;
+    --texto: #1E1B4B;
+    --texto-secundario: #6366F1;
+    --acento: #7C3AED;
+    --boton: #4C1D95;
+    --boton-hover: #6D28D9;
+    --exito: #22C55E;
+    --advertencia: #F59E0B;
+    --error: #DC2626;
+    --fuente: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[data-tema="oscuro"] {
+    --fondo: #1E1B3A;
+    --seccion: #312E81;
+    --texto: #E0E7FF;
+    --texto-secundario: #A78BFA;
+    --acento: #8B5CF6;
+    --boton: #5B21B6;
+    --boton-hover: #7C3AED;
+    --exito: #4ADE80;
+    --advertencia: #FBBF24;
+    --error: #F87171;
+}
